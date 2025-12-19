@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S29 | Official Store</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1 class="logo">S29</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <span class="cart">🛒 Cart (<span id="cart-count">0</span>)</span>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Style That Defines You</h2>
+  <p>Premium quality clothing by S29</p>
+  <button>Shop Now</button>
+</section>
+
+<section id="products" class="products">
+  <h2>Featured Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="images/blue-tshirt.png" alt="Blue Shirt">
+      <h3>Blue Shirt</h3>
+      <p>₹499</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/blue-jeans.png" alt="Blue Jeans">
+      <h3>Blue Jeans</h3>
+      <p>₹799</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/white-tshirt.jpg" alt="White T-Shirt">
+      <h3>White T-Shirt</h3>
+      <p>₹299</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <img src="images/being-tshirt.png" alt="Skiny T-Shirt">
+      <h3>Skiny T-Shirt</h3>
+      <p>₹299</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <img src="images/red-shirt.jpg" alt="Red Shirt">
+      <h3>Red Shirt</h3>
+      <p>₹699</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/black-jeans.png" alt="Black Jeans">
+      <h3>Black Jeans</h3>
+      <p>₹799</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer>
+  <p>© 2025 S29 Brand. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
